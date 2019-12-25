@@ -1,0 +1,157 @@
+html,
+body,
+div,
+span,
+iframe,
+p,
+pre,
+a,
+img,
+footer
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 80%;
+}
+
+
+.main {
+	padding: 6% 4%;
+}
+
+p.para {
+	font-size: 0.8725em;
+	color: #555555;
+	line-height: 1.8em;
+}
+
+.about {
+	display: block;
+}
+
+.cont-grid {
+	float: left;
+	width: 60.3333%;
+}
+
+.cont-grid-img {
+	margin-left: 3.3333%;
+	width: 36.33333%;
+	float: left;
+}
+
+.cont-grid-img img {
+	margin-top: 10px;
+}
+
+.cont-grid span {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #777777;
+	text-shadow: 0 1px 0 #ffffff;
+}
+
+.abt-para p {
+	margin-top: 2%;
+}
+
+.about-p {
+	margin-top: 20px;
+}
+
+.read_more {
+	margin-top: 2%;
+}
+
+.btn {
+	color: #00BAC6;
+	background: #ffffff;
+	border: 1px solid #22D5E0;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 12px 38px;
+	font-size: 0.875em;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background: #00BAC6;
+	color: #ffffff;
+}
+
+.ser_btn {
+	position: relative;
+	margin-top: 12%;
+}
+
+.ser_btn1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.button {
+	color: #555555;
+	border-top: 1px solid rgb(221, 221, 221);
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	width: 100%;
+	padding: 12px 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+	background: #00BAC6;
+	color: #ffffff;
+}
+.para{
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    15% {font-weight: bold;}
+    
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    15% {font-weight: bold;}
+    
+}
